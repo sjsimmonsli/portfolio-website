@@ -1,1 +1,58 @@
-body {color: lightgray}
+/* Colors used
+
+Primary colors: #FCA8C3, #FDB6A7, #98C6FC
+Neutral colors: #DAD1D1, #8E8484, #3F3636
+Accent colors: #FF709E, #FF8A71, #489CFF
+
+*/
+
+body {
+  color: #FDB6A7;
+  font-family: 'Avenir';
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+div {
+  padding: 10px; /* Adds a 10px inner spacing to all sides*/
+  margin: 10px; /* Adds a 10px outer spacing to all sides*/
+}
+
+a {
+  color: #FF709E;
+}
+
+a:visited {
+  color: #489CFF;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+
+  background-color: #DAD1D1;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #DAD1D1; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
