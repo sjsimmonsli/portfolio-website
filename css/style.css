@@ -47,17 +47,26 @@ a:focus {
   text-decoration: none;
 }
 
-button {
+button,
+.button {
   border: none;
   font-family: inherit;
-
   background-color: #DAD1D1;
   color: white !important;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #DAD1D1; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  opacity: 0.9;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+button:hover,
+.button:hover {
+opacity: 1;
+  background-color: #FF709E;
+  color: #FF709E;
 }
 
 /* Layout styling */
