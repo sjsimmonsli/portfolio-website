@@ -29,11 +29,6 @@ h3 {
   text-align: center;
 }
 
-div {
-  padding: 10px; /* Adds a 10px inner spacing to all sides*/
-  margin: 10px; /* Adds a 10px outer spacing to all sides*/
-}
-
 a {
   color: #489CFF;
 }
